@@ -1,0 +1,141 @@
+.badgebody {
+    background: rgb(230,230,230);
+    font-family: 'Lato';
+    color: #7a7676;
+    line-height: 20px;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+textarea.form-control {
+    margin-bottom: 15px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+label {
+    text-align: right;
+    line-height: 2;
+}
+
+.form-section{
+
+}
+
+.form-section.top-section{
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0 20px 0;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+/*--------------------------
+      FORM WIZARD STYLES
+---------------------------*/
+
+.widget-container .stepy-tab ul, .block-tabby ul.stepy-titles {
+    border-bottom: none;
+    padding: 0;
+}
+
+.fw-title {
+    color: #424F63;
+    margin-bottom: 30px;
+}
+
+.block-tabby ul.stepy-titles {
+    margin-bottom: 10px;
+}
+
+.widget-container .stepy-tab ul li.current-step, .block-tabby ul li.current-step{
+    border:none ;
+    background: #337ab7!important;
+    color: #fff;
+}
+
+.widget-container .stepy-titles li, .stepy-titles li {
+    background: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.widget-container .stepy-titles li span {
+    font-size: 12px;
+}
+
+
+.widget-container .step {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+
+.widget-container .step legend {
+
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-top: 20px;
+    border-bottom:1px dotted #ddd;
+    padding-bottom: 20px;
+    line-height: 1.1;
+    color: inherit;
+    padding-top: 20px;
+}
+
+.widget-container input.has-feedback .form-control-feedback {
+    padding: 6px 33px 6px 10px;
+}
+
+.widget-container input.has-left .form-control-feedback {
+    padding: 6px 33px 6px 10px;
+}
+
+.step input, .step textarea, .step select, .widget-content label.checkbox, .widget-content label.radio {
+    margin-left: 0 !important;
+}
+
+.fa-btn {
+    margin-right: 6px;
+}
+
+.titulo_show{
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    margin-top: 20px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 20px;
+    line-height: 1.1;
+    color: inherit;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.blog-post li{
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: 1px solid #ccc;
+}
+
+.blog-post a{
+    text-decoration: none;
+}
+
+.blog-post i{
+    margin-right: 5px;
+}
+
+.marg{
+    margin: 0px 2px;
+}
+

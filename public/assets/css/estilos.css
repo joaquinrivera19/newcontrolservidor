@@ -1,0 +1,238 @@
+.chek {
+    height: 22px;
+}
+
+.form-control .input-sm {
+    width: 100%;
+}
+
+.chosen-choices {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.menu-botones {
+    margin-left: 35px;
+    padding-top: 15px;
+}
+
+.menu-control {
+    height: 100px;
+    border-radius: 3px;
+    background-color: #424F63;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.menu-control i {
+    font-size: 2em;
+}
+
+.menu-control:hover {
+    background-color: white;
+    color: #424F63;
+    border: 1px solid #424F63;
+}
+
+.ca-menu {
+}
+
+.ca-menu li {
+    width: 190px;
+    height: 65px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background: #424F63;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 4px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.ca-menu li:last-child {
+    margin-right: 0px;
+}
+
+.ca-menu li a {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    position: relative;
+}
+
+/* CSS reset */
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.ca-icon {
+    font-family: 'WebSymbolsRegular', cursive;
+    font-size: 30px;
+    color: #424F63;
+    text-shadow: 0px 0px 1px #fff;
+    line-height: 80px;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.ca-content {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+}
+
+.ca-content h2 {
+    margin: 0;
+    padding: 6px 0 5px 0;
+}
+
+.ca-content h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.ca-main {
+    font-size: 13px;
+    opacity: 1;
+    text-align: center;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.ca-sub {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.ca-menu li:hover {
+    background-color: #FFF;
+}
+
+.ca-menu li:hover .ca-icon {
+    color: #337ab7;
+    -webkit-animation: moveFromBottom 300ms ease;
+    -moz-animation: moveFromBottom 300ms ease;
+    -ms-animation: moveFromBottom 300ms ease;
+}
+
+.ca-menu li:hover .ca-main {
+    color: #000;
+    -webkit-animation: smallToBig 300ms ease;
+    -moz-animation: smallToBig 300ms ease;
+    -ms-animation: smallToBig 300ms ease;
+}
+
+.ca-menu li:hover .ca-sub {
+    color: #FFF;
+    background-color: #337ab7;
+    opacity: 1;
+    -webkit-animation: moveFromBottom 500ms ease;
+    -moz-animation: moveFromBottom 500ms ease;
+    -ms-animation: moveFromBottom 500ms ease;
+}
+
+@-webkit-keyframes smallToBig {
+    from {
+        -webkit-transform: scale(0.1);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes smallToBig {
+    from {
+        -moz-transform: scale(0.1);
+    }
+    to {
+        -moz-transform: scale(1);
+    }
+}
+
+@-ms-keyframes smallToBig {
+    from {
+        -ms-transform: scale(0.1);
+    }
+    to {
+        -ms-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(100%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(100%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(100%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
